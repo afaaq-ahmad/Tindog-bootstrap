@@ -1,0 +1,157 @@
+
+body{
+    font-family: 'Montserrat';
+}
+.nav{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navPadding{
+    padding: 0 1rem 0 1rem;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+    padding-bottom: 10px;
+}
+h2{
+    font-family: "Montserrat" !important;
+    font-size: 3 rem !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+}
+
+.container-fluid{
+    padding: 3% 15% 7% !important;
+}
+.title-padding{
+    padding-top: 10% ;
+}
+
+/* image */
+.title-image{
+    max-width: 50%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Navigatiion bar */
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+}
+
+.nav-link{
+    padding: 0 18px !important;
+    font-family: "Montserrat";
+    font-size: large;
+}
+
+/* Download */
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* feature */
+
+#features{
+    background-color: #fff;
+    padding: 7% 5px 7% 5px;
+    position: relative;
+}
+.feature-icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+.items{
+    text-align: center;
+    padding: 4% 0 4% 0 ;
+    font-size: 1.5rem !important;
+}
+.featureP{
+    color: #8f8f8f;
+}
+
+/* Tistimonial Section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA */
+
+#cta{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+    font-family: "Montserrat Black";
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 20% 4% !important;   
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding: 1%;
+    background-color: #fff;
+}
+.icons{
+    padding: 7px 7px;
+}
